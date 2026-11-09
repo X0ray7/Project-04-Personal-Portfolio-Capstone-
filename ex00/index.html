@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suhaib Abu Aresh - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <div class="logo">Suhaib.dev</div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#hobbies">Hobbies</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button id="themeToggleBtn" class="theme-btn">Switch Theme</button>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about" class="section">
+            <div class="about-container">
+                <img src="assets/profile.jpg" alt="Profile Photo" id="profileImg" class="profile-img">
+                <div class="about-text">
+                    <h1>Hi, I'm Suhaib Rami Abu Aresh</h1>
+                    <p>Software Engineering student at 42 Irbid / Crown Prince Foundation, specialized in systems, cybersecurity, and full-stack development.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">C / Python</div>
+                <div class="skill-card">Java / JavaScript</div>
+                <div class="skill-card">Linux & Bash</div>
+                <div class="skill-card">Cybersecurity & OSINT</div>
+                <div class="skill-card">Git Version Control</div>
+                <div class="skill-card">Web Development</div>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <h2>Project Showcase</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>Project 00</h3>
+                    <p>Unix shell configuration and environment setup.</p>
+                </div>
+                <div class="project-card">
+                    <h3>Project 01</h3>
+                    <p>Push_swap stack sorting algorithmic optimization.</p>
+                </div>
+                <div class="project-card">
+                    <h3>Project 02</h3>
+                    <p>Born2beroot secure system administration on Debian.</p>
+                </div>
+                <div class="project-card">
+                    <h3>Project 03</h3>
+                    <p>Inception multi-container Docker infrastructure.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="hobbies" class="section">
+            <h2>Hobbies</h2>
+            <p>Engaging in boxing sparring sessions, solving Capture The Flag (CTF) cybersecurity challenges, and exploring OSINT investigations.</p>
+        </section>
+
+        <section id="contact" class="section">
+            <h2>Contact Me</h2>
+            <form id="contactForm">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Suhaib Abu Aresh. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
